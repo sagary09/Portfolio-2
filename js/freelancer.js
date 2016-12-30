@@ -1,6 +1,20 @@
 // Freelancer Theme JavaScript
 
 //EMS-Speech//
+// function rollover1(){
+//   div= document.getElementById('ems-color');
+//   div.style.display = 'block';
+//   div=document.getElementById('ems-BW');
+//   div.style.display = 'none';
+//
+// }
+// function mouseaway1(){
+//   div= document.getElementById('ems-BW');
+//   div.style.display = 'block';
+//   div=document.getElementById('ems-color');
+//   div.style.display = 'none';
+//
+// }
 
 function rollover1(ems_speech_img){
   ems_speech_img.src = 'img/ems-speech-color.png';
@@ -9,7 +23,7 @@ function mouseaway1(ems_speech_img)
 {
   ems_speech_img.src = 'img/ems-speech-BW.png';
 }
-//DreamOn//
+DreamOn//
 
 function rollover2(dream_img){
   dream_img.src = 'img/dream-color.png';
