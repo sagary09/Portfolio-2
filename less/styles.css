@@ -205,6 +205,9 @@ section h2 {
   margin: auto;
   padding: 10px;
 }
+.success #about-thumbnail {
+  width: 100px;
+}
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
