@@ -23,7 +23,7 @@ function mouseaway1(ems_speech_img)
 {
   ems_speech_img.src = 'img/ems-speech-BW.jpg';
 }
-DreamOn//
+//DreamOn//
 
 function rollover2(dream_img){
   dream_img.src = 'img/dream-color.jpg';
