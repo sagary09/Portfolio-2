@@ -320,7 +320,7 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #595959;
+  background-color: #000000;
 }
 .btn-outline {
   color: white;
@@ -342,7 +342,7 @@ footer .footer-below {
   color: white;
   background-color: #666666;
   border-color: #666666;
-  font-weight: 700;
+  font-weight: 300;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -384,7 +384,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #c2c2c2;
   border-color: #c2c2c2;
-  font-weight: 700;
+  font-weight: 300;
 }
 .btn-success:hover,
 .btn-success:focus,
