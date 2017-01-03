@@ -26,7 +26,8 @@ h4,
 h5,
 h6 {
   font-family: "Rubik";
-  font-weight: 700;
+  font-weight: 300;
+  padding-bottom: 10px;
 }
 h4 {
   font-weight: 500;
@@ -186,12 +187,23 @@ section h2 {
   margin: 0;
   font-size: 3em;
 }
-section .success {
-  background: #f5bb5d;
-  color: white;
+.success {
+  background: #211e20;
 }
-section .success p {
-  color: white;
+.success p {
+  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 12px;
+  font-weight: 300;
+  text-align: center;
+  color: #999;
+}
+.success img {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  padding: 10px;
 }
 @media (max-width: 767px) {
   section {
