@@ -17,56 +17,56 @@
 // }
 
 function rollover1(ems_speech_img){
-  ems_speech_img.src = 'img/ems-speech-color.png';
+  ems_speech_img.src = 'img/ems-speech-color.jpg';
 }
 function mouseaway1(ems_speech_img)
 {
-  ems_speech_img.src = 'img/ems-speech-BW.png';
+  ems_speech_img.src = 'img/ems-speech-BW.jpg';
 }
 DreamOn//
 
 function rollover2(dream_img){
-  dream_img.src = 'img/dream-color.png';
+  dream_img.src = 'img/dream-color.jpg';
 }
 function mouseaway2(dream_img)
 {
-  dream_img.src = 'img/dream-BW.png';
+  dream_img.src = 'img/dream-BW.jpg';
 }
 //Craigslist//
 
 function rollover3(craig_img){
-  craig_img.src = 'img/craigslist-color.png';
+  craig_img.src = 'img/craigslist-color.jpg';
 }
 function mouseaway3(craig_img)
 {
-  craig_img.src = 'img/craigslist-BW.png';
+  craig_img.src = 'img/craigslist-BW.jpg';
 }
 //Transfer//
 
 function rollover4(transfer_img){
-  transfer_img.src = 'img/transfer-color.png';
+  transfer_img.src = 'img/transfer-color.jpg';
 }
 function mouseaway4(transfer_img)
 {
-  transfer_img.src = 'img/Transfer-BW.png';
+  transfer_img.src = 'img/Transfer-BW.jpg';
 }
 //Federal//
 
 function rollover5(federal_img){
-  federal_img.src = 'img/federal-color.png';
+  federal_img.src = 'img/federal-color.jpg';
 }
 function mouseaway5(federal_img)
 {
-  federal_img.src = 'img/federal-BW.png';
+  federal_img.src = 'img/federal-BW.jpg';
 }
 //Global//
 
 function rollover6(global_img){
-  global_img.src = 'img/global-color.png';
+  global_img.src = 'img/global-color.jpg';
 }
 function mouseaway6(global_img)
 {
-  global_img.src = 'img/global-BW.png';
+  global_img.src = 'img/global-BW.jpg';
 }
 (function($) {
     "use strict"; // Start of use strict
