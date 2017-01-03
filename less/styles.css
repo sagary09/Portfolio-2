@@ -186,13 +186,14 @@ section {
 section h2 {
   margin: 0;
   font-size: 3em;
+  color: #737373;
 }
 .success {
   background: #211e20;
 }
 .success p {
   font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   padding: 12px;
   font-weight: 300;
   text-align: center;
@@ -209,10 +210,9 @@ section h2 {
   display: inline;
 }
 .about-thumbnail img {
-  width: 300px;
+  width: 600px;
   border-radius: 0px;
   padding: 0px;
-  margin: 0px;
 }
 @media (max-width: 767px) {
   section {
