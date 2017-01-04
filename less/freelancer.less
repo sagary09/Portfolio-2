@@ -159,22 +159,24 @@ header {
 		letter-spacing: 1px;
 		li {
 			a {
-				color: #610044;
+				color: @theme-dark;
 				&:hover {
-					color: #FFC500;
+					color: @theme-hover;
 					outline: none;
 				}
 				&:focus,
 				&:active {
-					color: #FFC500;
+					color: @theme-hover;
 				}
 			}
 			&.active {
 				a {
+					background-color: @theme-primary;
 					color: white;
 					&:hover,
 					&:focus,
 					&:active {
+						background-color: @theme-primary;
 						color: white;
 					}
 				}
@@ -182,14 +184,13 @@ header {
 		}
 	}
 	.navbar-toggle {
-		color: white;
-		font-size: 10px;
-		border-color: white;
+		color: @theme-primary;
+		border: none;
+		font-size: 20px;
+		padding:0px;
 		&:hover,
 		&:focus {
-			background-color: @theme-success;
-			color: white;
-			border-color: @theme-success;
+			color: @theme-primary;
 		}
 	}
 }
@@ -307,13 +308,21 @@ section {
 	border-color: #c5c5c5;
 	border-width: thin;
 }
-
-@media(min-width:767px) {
+.img-responsive-color{
+	display: none;
+}
+@media(max-width:767px) {
     #portfolio {
         .portfolio-item {
             margin: 0 0 30px;
         }
     }
+		.img-responsive-color{
+			display: block;
+		}
+		.img-not-responsive{
+			display: none;
+		}
 }
 
 .floating-label-form-group {
