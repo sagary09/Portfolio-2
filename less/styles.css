@@ -4,9 +4,10 @@ body {
 }
 p {
   font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 300;
   text-align: center;
-  color: black;
+  color: #a9a9a9;
 }
 p.small {
   font-size: 16px;
@@ -31,14 +32,19 @@ h6 {
 }
 h4 {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   color: #666666;
   text-align: center;
   padding-bottom: 0px;
 }
+h5 {
+  color: #666666;
+  font-size: 24px;
+}
 h2 {
   padding-bottom: 15px;
   padding-top: 15px;
+  color: #f3b41e;
 }
 hr.star-light,
 hr.star-primary {
@@ -189,7 +195,6 @@ section {
 section h2 {
   margin: 0;
   font-size: 3em;
-  color: #737373;
 }
 .success {
   background: #211e20;

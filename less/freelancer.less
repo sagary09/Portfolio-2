@@ -9,9 +9,10 @@ body {
 
 p {
 	font-family: 'Rubik','Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
+	font-weight: 300;
 	text-align: center;
-	color: black;
+	color: darken(@theme-success, 10%);
 }
 
 p.small {
@@ -34,14 +35,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 h4{
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 16px;
 	color:@theme-primary;
 	text-align: center;
 	padding-bottom: 0px;
 }
+h5{
+	color:@theme-primary;
+	font-size: 24px;
+}
 h2{
 	padding-bottom: 15px;
 	padding-top:15px;
+	color:@theme-hover;
 
 }
 
@@ -214,7 +220,6 @@ section {
     h2 {
     	margin: 0;
     	font-size: 3em;
-			color: #737373;
     }
 }
 .success {
