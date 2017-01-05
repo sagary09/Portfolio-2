@@ -330,6 +330,9 @@ section h2 {
 .floating-label-form-group-with-focus label {
   color: #c2c2c2;
 }
+#fed-btn {
+  margin-top: -50px;
+}
 form .row .floating-label-form-group {
   border: 1px solid #eeeeee;
   margin-top: 20px;
