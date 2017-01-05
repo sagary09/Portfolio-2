@@ -19,6 +19,7 @@ a:active,
 a.active {
   color: #FFC500;
   outline: none;
+  text-decoration: none;
 }
 h1,
 h2,
@@ -128,13 +129,16 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: #9f0037;
+  color: #f3b41e;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #9f0037;
+}
+.navbar-custom .navbar-brand img {
+  width: 100px;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;

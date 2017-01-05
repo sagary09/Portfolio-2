@@ -26,6 +26,7 @@ a:active,
 a.active {
 	color: #FFC500;
 	outline: none;
+	text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -147,12 +148,15 @@ header {
 		outline: none;
 	}
 	.navbar-brand {
-		color: #9f0037;
+		color: @theme-hover;
 		&:hover,
 		&:focus,
 		&:active,
 		&.active {
 			color: #9f0037;
+		}
+		img{
+			width: 100px;
 		}
 	}
 	.navbar-nav {
